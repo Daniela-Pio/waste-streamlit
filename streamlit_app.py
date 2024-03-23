@@ -52,9 +52,9 @@ if waste_type not in ['Organic bin', 'Glass container', 'Paper container']:
 
 #Infotext
 if waste_type == 'Black bin':
- st.write("The waste from the black garbage can is incinerated in a waste incineration plant - only a small proportion goes to mechanicalbiogical.")
+ st.write("The diagram shows the contents of the garbage can by component. The waste from the black garbage can is incinerated in a waste incineration plant - only a small proportion goes to mechanicalbiogical.")
 elif waste_type == 'Yellow bin':
- st.write("The plastic waste from the yellow garbage can is recycled and reused. Only 31% of the plastic waste generated ends up in the recycling yard, resulting in 509 kilotons of new raw material. Composite waste produces 125 kilotons of new raw material and the reprocessing of metals produces 250 kilotons of new raw material. Everything that was sorted incorrectly is incinerated.")
+ st.write("The diagram shows the contents of the garbage can by component. The plastic waste from the yellow garbage can is recycled and reused. Only 31% of the plastic waste generated ends up in the recycling yard, resulting in 509 kilotons of new raw material. Composite waste produces 125 kilotons of new raw material and the reprocessing of metals produces 250 kilotons of new raw material. Everything that was sorted incorrectly is incinerated.")
 elif waste_type == 'Organic bin':
  st.write("The organic waste from the brown garbage can is turned into compost in composting plants as a substitute for mineral fertilizer.")
 elif waste_type == 'Glass container':
